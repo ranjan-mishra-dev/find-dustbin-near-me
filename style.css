@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+body {
+    height: 700px;
+}
+.distance-label {
+    text-align: center;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero img{
+    width: 100px;
+    height: 80px;
+    margin: 13px
+}
+
+.hero h1 {
+    margin-top: 25px;
+}
+
+#map {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+
+
+#findShortestDistanceBtn {
+    transform: translateY(-100%);
+    z-index: 1000;
+    padding: 1px 10px;
+    font-size: 16px; 
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#findShortestDistanceBtn:hover {
+    background-color: #ffffff;
+    color: #45a049;
+}
